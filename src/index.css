@@ -23,7 +23,7 @@ li a {
 }
 
 li a:hover {
-  border-bottom-style: solid white ;
+  border-bottom: white solid 2px;
 }
 .links {
   text-decoration: none;
