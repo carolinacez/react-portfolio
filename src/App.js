@@ -4,14 +4,15 @@ import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 function App() {
 
-  const [currentTab, setCurrentTab] = useState('Home')
+  const [currentTab, setCurrentTab] = useState('About')
 
   function renderTab() {
     switch (currentTab) {
-      case 'About':
+      case 'About':  
         return <About/>
       case 'Portfolio' :
         return <Portfolio/>
@@ -31,6 +32,7 @@ function App() {
       <main>
 
       </main>
+      <Footer/>
     </div>
   );
 }

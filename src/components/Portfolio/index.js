@@ -23,7 +23,7 @@ function Portfolio() {
         }
     ])
     return (
-        <div>
+        <div className="portfolio">
             <h1 id="portfolio">Portfolio</h1>
             <div className="row"> 
             {projects.map((project, i) => (

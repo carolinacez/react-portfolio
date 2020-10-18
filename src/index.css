@@ -3,11 +3,14 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  
+  
   /* background-color: #333; */
 }
 
 li {
-  float: left;
+  float: right;
+  
 }
 
 li a {
@@ -16,10 +19,11 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 li a:hover {
-  /* background-color: #111; */
+  border-bottom-style: solid white ;
 }
 .links {
   text-decoration: none;
@@ -35,6 +39,95 @@ header h1 {
   color: pink;
   margin: 10px;
 }
+
+.title {
+  float: left;
+}
+
+.tab{
+  font-size: 23px;
+  margin-top: 18px;
+}
+
+.about {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 100;
+  color: pink;
+  
+}
+
+.description ul {
+text-align: center;
+align-items: center;
+/* margin-bottom: 100px; */
+}
+
+.pic{
+  margin: 35px 20px 35px 80px;
+}
+
+.aboutme {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  background-color:  rgba(255,192,203, 0.1);
+  margin: 30px 100px 60px 100px;
+  border: solid pink 1px;
+  
+}
+
+.form-wrapper {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 100;
+  color: pink;
+}
+
+.portfolio {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 100;
+  color: pink;
+}
+.resume {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 100;
+  color: pink;
+}
+
+.resume-list{
+  text-align: center;
+ 
+}
+
+
+.header-wrapper {
+  margin: 15px;
+  border-bottom: 2px solid white ;
+}
+
+/* .contact-list {
+  width: 100%; 
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  align-items: center;
+
+} */
+.footer-contact {
+  padding: 10px;
+
+} 
+
+.contact-list {
+  margin: 50px 50px 50px 500px;
+}
+
+
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
