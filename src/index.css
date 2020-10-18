@@ -100,9 +100,12 @@ align-items: center;
 
 .resume-list{
   text-align: center;
- 
+  border: solid pink 2px;
+  margin: 30px 200px 100px 200px
 }
-
+ h2 {
+   color: white;
+ }
 
 .header-wrapper {
   margin: 15px;

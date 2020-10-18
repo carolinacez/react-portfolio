@@ -11,18 +11,15 @@ function Resume() {
             <h2>Front-end Profeciencies </h2>
             <p>CSS</p>
             <p>JavaScript</p>
-            </div>
-            <div className="resume-list">
+            <p>JQuery</p>
+            <p>React</p>
             <h2>Back-end Profeciencies </h2>
-            <p>MongoDB</p>
+            <p>APIs</p>
             <p>Nodejs</p>
+            <p>SQL</p>
+            <p>MongoDB</p>
             </div>
-
-
-
-            
-            
-        </section>
+            </section>
     )
 }
 
