@@ -4,7 +4,6 @@
 
   ## **Table of Contents** 
   * [Description](#Description)
-  * [Installation](#Installation)
   * [Usage](#Usage)
   * [Contributions](#Contributions)
   * [Questions](#Questions)
