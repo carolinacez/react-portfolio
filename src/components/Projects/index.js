@@ -4,9 +4,9 @@ function Projects({project}) {
     const { name, description, repo, deployed} = project; 
     return (
         <div className="project" key={name}>
-            <h3 className="portfolio-description">
+            <h2 className="portfolio-description">
                     {description}
-            </h3>
+            </h2>
             <img
             className="image"
             src={require(`../../assets/${name}.jpg`)}

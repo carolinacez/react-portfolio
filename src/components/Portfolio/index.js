@@ -5,19 +5,19 @@ function Portfolio() {
     const [projects] = useState([
         {
             name: 'pic-1',
-            description: 'this is project 1',
+            description: 'API Movie Search',
             deployed: 'https://khargol1.github.io/project-1/',
             repo: 'https://github.com/carolinacez/movie-project-one.git'
         },
         {
             name: 'pic-2',
-            description: 'this is project 2',
+            description: 'Book Club - Full Stack',
             deployed: 'https://book-sequelizers.herokuapp.com/',
             repo: 'https://github.com/Dj-Viking/book-club.git'
         },
         {
             name: 'pic-3',
-            description: 'this is project 3',
+            description: 'Timer Quiz - JavaScript',
             deployed: 'https://carolinacez.github.io/timer-quiz/',
             repo: 'https://github.com/carolinacez/timer-quiz.git'
         }

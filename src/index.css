@@ -32,7 +32,7 @@ li a:hover {
 }
 
 .portfolio-description {
-  font-size:  medium;
+  font-size:  large;
 }
 .project{
   border: pink solid 1px;
@@ -41,11 +41,17 @@ li a:hover {
 
 .deployed-links {
   font-size: medium;
+  margin-bottom: 10px;
 }
 .image {
   margin-top: 9px;
   margin-bottom: 10px;
 }
+h3{
+  color: white;
+
+}
+
 body {
   background-image: url(./assets/background4.jpg);
 }
@@ -142,6 +148,17 @@ align-items: center;
   padding: 10px;
 
 } 
+
+footer {
+  border-top: solid white 2px;
+  margin: 30px;
+  
+}
+
+.resume-pdf {
+  text-decoration: none;
+  color: hotpink; 
+}
 
 .contact-list {
   margin: 50px 50px 50px 500px;
