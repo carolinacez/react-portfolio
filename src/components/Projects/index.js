@@ -4,19 +4,23 @@ function Projects({project}) {
     const { name, description, repo, deployed} = project; 
     return (
         <div className="project" key={name}>
+            <h3 className="portfolio-description">
+                    {description}
+            </h3>
             <img
             className="image"
             src={require(`../../assets/${name}.jpg`)}
             alt=''
             />
             <div className="projectInfo">
-                <p>
-                    <a href={deployed} className="links">Deployed Link</a>
-                    <a href={repo} className="links">Repo Link</a>
-                </p>
-                <p>
-                    {description}
-                </p>
+            <div className="deployed-links">
+                <a href={deployed} className="links">Deployed Link  </a>
+
+                &
+                   
+                <a href={repo} className="links"> Repo Link</a>
+            </div>
+
             </div>
         </div>
     )

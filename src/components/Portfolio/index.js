@@ -6,20 +6,20 @@ function Portfolio() {
         {
             name: 'pic-1',
             description: 'this is project 1',
-            deployed: 'https://github.com',
-            repo: 'https://github.com'
+            deployed: 'https://khargol1.github.io/project-1/',
+            repo: 'https://github.com/carolinacez/movie-project-one.git'
         },
         {
-            name: 'pic-1',
+            name: 'pic-2',
             description: 'this is project 2',
-            deployed: 'https://github.com',
-            repo: 'https://github.com'
+            deployed: 'https://book-sequelizers.herokuapp.com/',
+            repo: 'https://github.com/Dj-Viking/book-club.git'
         },
         {
-            name: 'pic-1',
+            name: 'pic-3',
             description: 'this is project 3',
-            deployed: 'https://github.com',
-            repo: 'https://github.com'
+            deployed: 'https://carolinacez.github.io/timer-quiz/',
+            repo: 'https://github.com/carolinacez/timer-quiz.git'
         }
     ])
     return (

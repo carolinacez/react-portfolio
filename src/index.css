@@ -27,8 +27,25 @@ li a:hover {
 }
 .links {
   text-decoration: none;
+  color: white;
+  font-size: medium;
 }
 
+.portfolio-description {
+  font-size:  medium;
+}
+.project{
+  border: pink solid 1px;
+  margin: 30px 300px 30px 300px;
+}
+
+.deployed-links {
+  font-size: medium;
+}
+.image {
+  margin-top: 9px;
+  margin-bottom: 10px;
+}
 body {
   background-image: url(./assets/background4.jpg);
 }
