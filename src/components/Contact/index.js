@@ -42,17 +42,17 @@ function ContactForm() {
             <h1>Contact Form</h1>
             <form id="form" onSubmit={submit}>
                 <div>
-                    <label htmlFor="name">Name:</label>
+                    <label htmlFor="name">Name: </label>
                     <input type="text" defaultValue={name} onBlur={formValidation} name="name"/>
                 </div>
 
                 <div>
-                    <label htmlFor="email">Email:</label>
+                    <label htmlFor="email">Email: </label>
                     <input type="email" defaultValue={email} onBlur={formValidation} name="email"/>
                 </div>
 
                 <div>
-                    <label htmlFor="message">Message:</label>
+                    <label htmlFor="message">Message: </label>
                     <textarea type="message" defaultValue={message} onBlur={formValidation} name="message"/>
                 </div>
                 {errorMessage && (
@@ -60,7 +60,7 @@ function ContactForm() {
                         <p className="text-error">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <button type="submit" className="submit">Submit</button>
             </form>
         </section>
     )

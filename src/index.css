@@ -135,15 +135,6 @@ align-items: center;
   border-bottom: 2px solid white ;
 }
 
-/* .contact-list {
-  width: 100%; 
-  height: 50px;
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-around; 
-  align-items: center;
-
-} */
 .footer-contact {
   padding: 10px;
 
@@ -151,7 +142,7 @@ align-items: center;
 
 footer {
   border-top: solid white 2px;
-  margin: 30px;
+  margin: 15px;
   
 }
 
@@ -164,17 +155,31 @@ footer {
   margin: 50px 50px 50px 500px;
 }
 
-
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.submit{
+  background-color: pink;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.submit:hover{
+  opacity: 1;
+}
+.text-error {
+  font-size: medium;
+}
+label {
+  font-size: large;
+  font-weight: bold;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
+textarea {
+margin-top:20px;
+}
