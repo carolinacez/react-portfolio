@@ -17,9 +17,9 @@ function Portfolio() {
         },
         {
             name: 'pic-3',
-            description: 'Timer Quiz - JavaScript',
-            deployed: 'https://carolinacez.github.io/timer-quiz/',
-            repo: 'https://github.com/carolinacez/timer-quiz.git'
+            description: 'girl_code',
+            deployed: 'https://girl-code-project.herokuapp.com/',
+            repo: 'https://github.com/carolinacez/WomenInTech.git'
         }
     ])
     return (
